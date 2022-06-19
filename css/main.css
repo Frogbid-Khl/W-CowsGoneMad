@@ -2615,6 +2615,10 @@ body.overflow {
     background-position: center;
 }
 
+.map{
+    margin-top: 89px;
+}
+
 @media (min-width: 1024px) {
     .map__item:before {
         width: 2.5rem;
@@ -2692,4 +2696,10 @@ body.overflow {
 
 .chubby{
     font-family: chubb;
+}
+
+@media (max-width: 992px){
+    .map{
+        margin-top: 0;
+    }
 }
